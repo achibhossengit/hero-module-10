@@ -43,7 +43,8 @@
 
 
 /* main styles */
-main {
+main,
+footer {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -213,6 +214,17 @@ main>section {
 
 .sponsors-company img {
     filter: grayscale(100%);
+}
+
+
+/* footer related styles */
+footer p {
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 2.18rem 0rem;
+    margin-top: 130px;
+    margin-bottom: 210px;
+    border-radius: 8px;
 }
 
 
